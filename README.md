@@ -1,38 +1,3 @@
----
-language:
-- th
-license: mit
-tags:
-- thai
-- language-model
-- mixture-of-experts
-- small-language-model
-- transformers
-datasets:
-- ZombitX64/Wikipedia-Thai
-widget:
-- text: "ประเทศไทยมีจังหวัด"
-  example_title: "Thai Geography"
-- text: "วิทยาศาสตร์และเทคโนโลยี"
-  example_title: "Science and Technology"
-- text: "อาหารไทยที่มีชื่อเสียง"
-  example_title: "Thai Cuisine"
-model-index:
-- name: SLM-MoE-Thai
-  results:
-    - task:
-        type: text-generation
-        name: Text Generation
-      dataset:
-        name: ZombitX64/Wikipedia-Thai
-        type: text
-      metrics:
-        - type: loss
-          value: 6.64
-        - type: perplexity
-          value: 765.5
----
-
 # Thai Small Language Model with Mixture of Experts (SLM-MoE)
 
 This is a Small Language Model (SLM) with Mixture of Experts (MoE) architecture specifically designed for the Thai language. The model was trained from scratch using the ZombitX64/Wikipedia-Thai dataset.
