@@ -1,0 +1,145 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+debug.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.vscode/
+
+# WandB
+wandb/
+
+# Model artifacts
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.onnx
+training_data.pt
+
+# HuggingFace
+*.lock
+*.log
+*.jsonl
+
+# System
+.DS_Store
+Thumbs.db
+
+# Gradio
+__results__/
+
+# Local env
+.env
+.env.*
+
+# Checkpoints
+checkpoint-*/
+
+# Model output directories
+thai_slm_moe_model/
+thai_finetuned_model/
+thai_dialogpt_model/
+thai_distilgpt2_lora/
+thai_*_model/
+*_merged/
+outputs/
+
+# Training artifacts
+logs/
+data/
+cache/
+checkpoints/
+*.safetensors
+
+# Tokenizer files
+thai_tokenizer/
+tokenizer/
+vocab.json
+merges.txt
+special_tokens_map.json
+tokenizer_config.json
+
+# Dataset cache
+*.arrow
+*.cache
+dataset_info.json
+
+# Training logs and configs
+training_info.json
+config.json
+generation_config.json
+training_args.bin
+trainer_state.json
+
+# Large files
+*.zip
+*.tar.gz
+*.7z
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.#*
+#*#

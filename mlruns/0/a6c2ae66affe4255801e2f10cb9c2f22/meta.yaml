@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/Github/SLM/mlruns/0/a6c2ae66affe4255801e2f10cb9c2f22/artifacts
+end_time: 1754656469209
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a6c2ae66affe4255801e2f10cb9c2f22
+run_name: thai-finetune-DialoGPT-medium
+run_uuid: a6c2ae66affe4255801e2f10cb9c2f22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754656159556
+status: 3
+tags: []
+user_id: Admin
